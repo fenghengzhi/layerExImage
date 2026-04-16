@@ -13,6 +13,12 @@
 #ifndef _WIN32
 typedef unsigned char BYTE;
 typedef unsigned short WORD;
+typedef struct {
+	BYTE rgbBlue;
+	BYTE rgbGreen;
+	BYTE rgbRed;
+	BYTE rgbReserved;
+} RGBQUAD;
 #endif
 
 #include <algorithm>
